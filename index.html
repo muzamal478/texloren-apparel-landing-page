@@ -61,6 +61,7 @@
 
         .navbar {
             background: rgba(0, 0, 0, .7);
+            -webkit-backdrop-filter: blur(12px);
             backdrop-filter: blur(12px);
             padding: 18px 0;
         }
@@ -394,6 +395,20 @@
             padding-left: 5px;
         }
 
+        footer .footer-description {
+            color: #bbb;
+            line-height: 1.9;
+        }
+
+        footer hr {
+            border-color: #1c2c45;
+            margin: 50px 0 30px;
+        }
+
+        footer .footer-note {
+            color: #888;
+        }
+
         /* WHATSAPP */
 
         .whatsapp-container {
@@ -546,7 +561,7 @@
                 Tex<span>loren</span>
             </a>
 
-            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navMenu" title="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -608,7 +623,7 @@
                             Request Consultation
                         </a>
 
-                        <a href="https://wa.me/8801964360216" target="_blank" class="main-btn btn-outline-custom">
+                        <a href="https://wa.me/8801964360216" target="_blank" rel="noopener" class="main-btn btn-outline-custom">
                             WhatsApp Us
                         </a>
 
@@ -620,7 +635,7 @@
 
                     <div class="hero-image">
                         <img src="https://images.unsplash.com/photo-1470309864661-68328b2cd0a5?q=80&w=1200&auto=format&fit=crop"
-                            alt="">
+                            alt="Apparel manufacturing worker operating a sewing machine">
                     </div>
 
                 </div>
@@ -652,7 +667,7 @@
                     <div class="custom-card">
 
                         <img
-                            src="https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?q=80&w=1200&auto=format&fit=crop">
+                            src="https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?q=80&w=1200&auto=format&fit=crop" alt="Premium apparel manufacturing scene">
 
                         <h4>Premium Apparel Manufacturing</h4>
 
@@ -670,7 +685,7 @@
                     <div class="custom-card">
 
                         <img
-                            src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?q=80&w=1200&auto=format&fit=crop">
+                            src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?q=80&w=1200&auto=format&fit=crop" alt="Global buyer support services illustration">
 
                         <h4>Global Buyer Support</h4>
 
@@ -760,7 +775,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="custom-card">
                         <img
-                            src="https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=1200&auto=format&fit=crop">
+                            src="https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=1200&auto=format&fit=crop" alt="Knitwear collection">
                         <h4>Knitwear</h4>
                         <p>T-shirts, polo shirts, hoodies, joggers, sweatshirts and premium cotton apparel.</p>
                     </div>
@@ -769,7 +784,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="custom-card">
                         <img
-                            src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1200&auto=format&fit=crop">
+                            src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1200&auto=format&fit=crop" alt="Wovenwear clothing">
                         <h4>Wovenwear</h4>
                         <p>Shirts, chinos, trousers, uniforms and fashion woven collections.</p>
                     </div>
@@ -778,7 +793,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="custom-card">
                         <img
-                            src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?q=80&w=1200&auto=format&fit=crop">
+                            src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?q=80&w=1200&auto=format&fit=crop" alt="Kidswear apparel">
                         <h4>Kidswear</h4>
                         <p>Safe, comfortable and compliant babywear & kidswear manufacturing.</p>
                     </div>
@@ -845,7 +860,7 @@
 
                 <div class="col-lg-4">
                     <div class="testimonial">
-                        <img src="https://randomuser.me/api/portraits/men/32.jpg">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Portrait of Michael Carter">
                         <p>
                             “Texloren helped us improve sampling speed and communication. Their production coordination
                             is excellent.”
@@ -857,7 +872,7 @@
 
                 <div class="col-lg-4">
                     <div class="testimonial">
-                        <img src="https://randomuser.me/api/portraits/women/44.jpg">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Portrait of Emily Johnson">
                         <p>
                             “Reliable sourcing partner with transparent communication and premium quality control.”
                         </p>
@@ -868,7 +883,7 @@
 
                 <div class="col-lg-4">
                     <div class="testimonial">
-                        <img src="https://randomuser.me/api/portraits/men/12.jpg">
+                        <img src="https://randomuser.me/api/portraits/men/12.jpg" alt="Portrait of testimonial client">
                         <p>
                             “Professional team and smooth execution from development to shipment.”
                         </p>
@@ -975,7 +990,7 @@
 
                             <textarea rows="6" class="form-control" placeholder="Tell us about your project"></textarea>
 
-                            <button class="main-btn btn-primary-custom border-0">
+                            <button type="submit" class="main-btn btn-primary-custom border-0">
                                 Send Inquiry
                             </button>
 
@@ -987,7 +1002,9 @@
 
                         <div class="contact-image">
                             <img
-                                src="https://images.unsplash.com/photo-1612171709946-7fc1298a5a53?q=80&w=1200&auto=format&fit=crop">
+                                src="https://images.unsplash.com/photo-1612171709946-7fc1298a5a53?q=80&w=1200&auto=format&fit=crop"
+                                alt="Contact our apparel sourcing team"
+                                title="Contact our apparel sourcing team">
                         </div>
 
                     </div>
@@ -1012,7 +1029,7 @@
 
                     <h4>Texloren Apparel</h4>
 
-                    <p style="color:#bbb; line-height:1.9;">
+                    <p class="footer-description">
                         Professional OEM & private label apparel sourcing partner from Bangladesh for EU & US fashion
                         brands.
                     </p>
@@ -1042,10 +1059,10 @@
 
             </div>
 
-            <hr style="border-color:#1c2c45; margin:50px 0 30px;">
+            <hr>
 
             <div class="text-center">
-                <p style="color:#888;">
+                <p class="footer-note">
                     © 2026 Texloren Apparel Sourcing. All Rights Reserved.
                 </p>
             </div>
@@ -1063,8 +1080,8 @@
         </div>
 
         <a href="https://wa.me/8801964360216?text=Hello%20Texloren%20Apparel%20Sourcing" target="_blank"
-            class="whatsapp-btn">
-            <i class="fab fa-whatsapp"></i>
+            rel="noopener noreferrer" class="whatsapp-btn" title="WhatsApp Texloren Apparel Sourcing" aria-label="WhatsApp Texloren Apparel Sourcing">
+            <i class="fab fa-whatsapp" aria-hidden="true"></i>
         </a>
 
     </div>
