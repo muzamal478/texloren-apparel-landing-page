@@ -6,7 +6,7 @@ This is a modern, responsive landing page built for Texloren Apparel Sourcing, a
 
 ## Live Website
 
-https://muzamal478.github.io/texloren-apparel/
+https://muzamal478.github.io/texloren-apparel-landing-page/
 
 ---
 
